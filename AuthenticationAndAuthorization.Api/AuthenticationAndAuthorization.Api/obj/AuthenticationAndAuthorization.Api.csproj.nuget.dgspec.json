@@ -32,7 +32,17 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj": {
+                "projectPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj"
+              },
+              "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj": {
+                "projectPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj"
+              },
+              "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -50,6 +60,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -70,6 +84,246 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj",
+        "projectName": "AuthenticationAndAuthorization.Application",
+        "projectPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Projects\\MicroserviceProjects\\Play-Catalog\\Play.Catalog\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj": {
+                "projectPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj"
+              },
+              "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj",
+        "projectName": "AuthenticationAndAuthorization.Core",
+        "projectPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Projects\\MicroserviceProjects\\Play-Catalog\\Play.Catalog\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj",
+        "projectName": "AuthenticationAndAuthorization.Infrastructure",
+        "projectPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Projects\\MicroserviceProjects\\Play-Catalog\\Play.Catalog\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj": {
+                "projectPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
