@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|solutionrelative:authenticationandauthorization.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13934066-13B7-4855-86AA-343C4EF85FF1}|AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.application\\commands\\auth\\handlelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13934066-13B7-4855-86AA-343C4EF85FF1}|AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj|solutionrelative:authenticationandauthorization.application\\commands\\auth\\handlelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20AE51E3-A353-4C7B-A143-85E1B97EF453}|AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.core\\data\\seed\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AE51E3-A353-4C7B-A143-85E1B97EF453}|AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj|solutionrelative:authenticationandauthorization.core\\data\\seed\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13934066-13B7-4855-86AA-343C4EF85FF1}|AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.application\\commands\\auth\\handleregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +59,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HandleLogin.cs",
-              "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\Commands\\Auth\\HandleLogin.cs",
-              "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Application\\Commands\\Auth\\HandleLogin.cs",
-              "ToolTip": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\Commands\\Auth\\HandleLogin.cs",
-              "RelativeToolTip": "AuthenticationAndAuthorization.Application\\Commands\\Auth\\HandleLogin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Title": "RoleSeeder.cs",
+              "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\Data\\Seed\\RoleSeeder.cs",
+              "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Core\\Data\\Seed\\RoleSeeder.cs",
+              "ToolTip": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\Data\\Seed\\RoleSeeder.cs",
+              "RelativeToolTip": "AuthenticationAndAuthorization.Core\\Data\\Seed\\RoleSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T22:42:01.007Z",
+              "WhenOpened": "2025-02-07T22:58:27.527Z",
               "EditorCaption": ""
             },
             {
@@ -101,9 +101,9 @@
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Api\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "AuthenticationAndAuthorization.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAkAAABAMjMzMzMrwB8AAAA+AAAA",
+              "ToolTip": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "AuthenticationAndAuthorization.Api\\Controllers\\AuthController.cs*",
+              "ViewState": "AQIAAB0AAACAY2ZmZmYSwC8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T22:06:58.989Z",
               "EditorCaption": ""

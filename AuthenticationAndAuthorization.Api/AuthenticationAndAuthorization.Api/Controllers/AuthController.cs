@@ -1,6 +1,7 @@
 ﻿using AuthenticationAndAuthorization.Application.Commands.Auth;
 using AuthenticationAndAuthorization.Application.Utilities;
 using AuthenticationAndAuthorization.Application.Variables.Auth;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthenticationAndAuthorization.Api.Controllers
@@ -9,6 +10,11 @@ namespace AuthenticationAndAuthorization.Api.Controllers
     [Route("api/[controller]")]
     public class AuthController : ApiBaseController
     {
+        /// <summary>
+        /// Register users Endpoint
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost("register")]
         [Produces("application/json", Type = typeof(StandardResponse<string>))]
         public async Task<IActionResult> Register(RegisterModel model)
@@ -20,6 +26,11 @@ namespace AuthenticationAndAuthorization.Api.Controllers
             return StatusCode(int.Parse(result.Code), result);
         }
 
+        /// <summary>
+        /// Login users Endpoint
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost("login")]
         [Produces("application/json", Type = typeof(StandardResponse<string>))]
         public async Task<IActionResult> Login(LoginModel model)
@@ -29,6 +40,28 @@ namespace AuthenticationAndAuthorization.Api.Controllers
             if (result.Status)
                 return Ok(result);
             return StatusCode(int.Parse(result.Code), result);
+        }
+
+        /// <summary>
+        /// Admin users only Endpoint
+        /// </summary>
+        /// <returns></returns>
+        [Authorize(Roles = "Admin")]
+        [HttpGet("admin-only")]
+        public IActionResult AdminOnly()
+        {
+            return Ok(new { Message = "This is an admin-only endpoint" });
+        }
+
+        /// <summary>
+        /// regular users only Endpoint
+        /// </summary>
+        /// <returns></returns>
+        [Authorize(Roles = "User")]
+        [HttpGet("user-only")]
+        public IActionResult UserOnly()
+        {
+            return Ok(new { Message = "This is a user-only endpoint" });
         }
 
     }
