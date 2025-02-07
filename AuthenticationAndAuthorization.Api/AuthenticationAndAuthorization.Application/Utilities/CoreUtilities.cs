@@ -9,7 +9,7 @@ namespace AuthenticationAndAuthorization.Application.Utilities
 {
     public class CoreUtilities
     {
-        private string GenerateJwtToken(ApplicationUser user, IConfiguration _configuration)
+        public static string GenerateJwtToken(ApplicationUser user, IConfiguration _configuration)
         {
             var claims = new[]
             {

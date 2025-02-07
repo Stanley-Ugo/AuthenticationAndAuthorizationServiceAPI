@@ -16,7 +16,18 @@ namespace AuthenticationAndAuthorization.Api.Controllers
             var command = new HandleRegister.Command(model);
             var result = await Mediator.Send(command);
             if (result.Status)
-                return Ok(new { Message = "User registered successfully" });
+                return Ok(result);
+            return StatusCode(int.Parse(result.Code), result);
+        }
+
+        [HttpPost("login")]
+        [Produces("application/json", Type = typeof(StandardResponse<string>))]
+        public async Task<IActionResult> Login(LoginModel model)
+        {
+            var command = new HandleLogin.Command(model);
+            var result = await Mediator.Send(command);
+            if (result.Status)
+                return Ok(result);
             return StatusCode(int.Parse(result.Code), result);
         }
 
