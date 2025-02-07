@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yVicW4LkaL8=",
+  "dgSpecHash": "q0Dmi2laK6I=",
   "success": true,
   "projectFilePath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\bouncycastle.cryptography\\2.5.0\\bouncycastle.cryptography.2.5.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\mailkit\\4.10.0\\mailkit.4.10.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",
