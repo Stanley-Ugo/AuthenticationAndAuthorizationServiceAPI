@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/AuthenticationAndAuthorizationService/FileContentIndex/2dae9f05-35f4-45d1-a714-d2bf0108ecb8.vsidx
+/.vs/AuthenticationAndAuthorizationService/v17/.wsuo
+/.vs/AuthenticationAndAuthorizationService/FileContentIndex/267bc89c-5174-4864-a54c-52880b54f363.vsidx
+/.vs/AuthenticationAndAuthorizationService/FileContentIndex
+/.vs/AuthenticationAndAuthorizationService/v17
+/.vs/slnx.sqlite
