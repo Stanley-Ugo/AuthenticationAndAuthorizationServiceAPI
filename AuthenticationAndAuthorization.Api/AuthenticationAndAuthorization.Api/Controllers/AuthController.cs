@@ -1,4 +1,5 @@
-﻿using AuthenticationAndAuthorization.Application.Commands.Auth;
+﻿using AuthenticationAndAuthorization.Api.Filters;
+using AuthenticationAndAuthorization.Application.Commands.Auth;
 using AuthenticationAndAuthorization.Application.Utilities;
 using AuthenticationAndAuthorization.Application.Variables.Auth;
 using Microsoft.AspNetCore.Authorization;
@@ -62,6 +63,18 @@ namespace AuthenticationAndAuthorization.Api.Controllers
         public IActionResult UserOnly()
         {
             return Ok(new { Message = "This is a user-only endpoint" });
+        }
+
+
+        /// <summary>
+        /// Protected Endpoint accessible only by ApiKey
+        /// </summary>
+        /// <returns></returns>
+        [ApiKeyAuth]
+        [HttpGet("protected")]
+        public IActionResult Protected()
+        {
+            return Ok(new { Message = "This is a protected endpoint" });
         }
 
     }
