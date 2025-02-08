@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuthenticationAndAuthorization.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6de9c937b4d438a7898ba088ba87f3ef92df9274")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab24f27548534e1ad4d80165d00b807c761c123a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuthenticationAndAuthorization.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuthenticationAndAuthorization.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
