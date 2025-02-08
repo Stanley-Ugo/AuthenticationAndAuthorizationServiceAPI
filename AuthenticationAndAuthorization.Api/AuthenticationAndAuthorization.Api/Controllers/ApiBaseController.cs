@@ -7,7 +7,10 @@ namespace AuthenticationAndAuthorization.Api.Controllers
     [ApiController]
     public class ApiBaseController : ControllerBase
     {
-        private IMediator _mediator;
-        protected IMediator Mediator => _mediator ??= HttpContext.RequestServices.GetService<IMediator>();
+        protected readonly IMediator Mediator;
+        public ApiBaseController(IMediator mediator)
+        {
+            Mediator = mediator;
+        }
     }
 }

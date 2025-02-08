@@ -2,6 +2,7 @@
 using AuthenticationAndAuthorization.Application.Commands.Auth;
 using AuthenticationAndAuthorization.Application.Utilities;
 using AuthenticationAndAuthorization.Application.Variables.Auth;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +12,11 @@ namespace AuthenticationAndAuthorization.Api.Controllers
     [Route("api/[controller]")]
     public class AuthController : ApiBaseController
     {
+        
+        public AuthController(IMediator mediator): base(mediator)
+        {
+            
+        }
         /// <summary>
         /// Register users Endpoint
         /// </summary>

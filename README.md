@@ -77,9 +77,6 @@ This is a scalable backend API built using **.NET Core** and **MSSQL** that mana
 - Sensitive configuration values (e.g., API keys, database credentials) should be stored in environment variables.
 - API key protection for third-party endpoints.
 
-## Submission Details
-- **GitHub Repository:** [AuthenticationAndAuthorizationServiceAPI](https://github.com/Stanley-Ugo/AuthenticationAndAuthorizationServiceAPI)
-- Submission Deadline: **February 14, 2025**
 
 For any further inquiries, feel free to reach out.
 

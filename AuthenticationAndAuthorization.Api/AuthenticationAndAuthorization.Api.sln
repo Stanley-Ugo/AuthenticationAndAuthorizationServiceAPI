@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationAndAuthorizat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationAndAuthorization.Infrastructure", "AuthenticationAndAuthorization.Infrastructure\AuthenticationAndAuthorization.Infrastructure.csproj", "{34B650A3-500B-4EC3-8C55-2888E2243C50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationAndAuthorization.Test", "AuthenticationAndAuthorization.Test\AuthenticationAndAuthorization.Test.csproj", "{FD540B0F-34F7-4417-A416-3EBC11489473}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{34B650A3-500B-4EC3-8C55-2888E2243C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B650A3-500B-4EC3-8C55-2888E2243C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B650A3-500B-4EC3-8C55-2888E2243C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD540B0F-34F7-4417-A416-3EBC11489473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD540B0F-34F7-4417-A416-3EBC11489473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD540B0F-34F7-4417-A416-3EBC11489473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD540B0F-34F7-4417-A416-3EBC11489473}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
