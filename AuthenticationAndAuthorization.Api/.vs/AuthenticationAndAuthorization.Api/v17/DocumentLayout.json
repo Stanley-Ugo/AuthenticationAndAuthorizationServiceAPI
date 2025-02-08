@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|solutionrelative:authenticationandauthorization.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.api\\middlewares\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|solutionrelative:authenticationandauthorization.api\\middlewares\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|solutionrelative:authenticationandauthorization.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|solutionrelative:authenticationandauthorization.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{13934066-13B7-4855-86AA-343C4EF85FF1}|AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj|solutionrelative:authenticationandauthorization.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|solutionrelative:authenticationandauthorization.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34B650A3-500B-4EC3-8C55-2888E2243C50}|AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.infrastructure\\externalservices\\emailservice\\implementations\\sendgridemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34B650A3-500B-4EC3-8C55-2888E2243C50}|AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj|solutionrelative:authenticationandauthorization.infrastructure\\externalservices\\emailservice\\implementations\\sendgridemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{34B650A3-500B-4EC3-8C55-2888E2243C50}|AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.infrastructure\\externalservices\\emailservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34B650A3-500B-4EC3-8C55-2888E2243C50}|AuthenticationAndAuthorization.Infrastructure\\AuthenticationAndAuthorization.Infrastructure.csproj|solutionrelative:authenticationandauthorization.infrastructure\\externalservices\\emailservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F5E0358-4129-4940-929C-C94B646520F5}|AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.csproj|solutionrelative:authenticationandauthorization.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20AE51E3-A353-4C7B-A143-85E1B97EF453}|AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj|c:\\projects\\authenticationandauthorizationservice\\authenticationandauthorization.api\\authenticationandauthorization.core\\data\\seed\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 216,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -79,6 +83,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ApiKeyMiddleware.cs",
+              "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\Middlewares\\ApiKeyMiddleware.cs",
+              "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Api\\Middlewares\\ApiKeyMiddleware.cs",
+              "ToolTip": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\Middlewares\\ApiKeyMiddleware.cs",
+              "RelativeToolTip": "AuthenticationAndAuthorization.Api\\Middlewares\\ApiKeyMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T00:05:09.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Infrastructure\\DependencyInjection.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SendGridEmailService.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\ExternalServices\\EmailService\\Implementations\\SendGridEmailService.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Infrastructure\\ExternalServices\\EmailService\\Implementations\\SendGridEmailService.cs",
@@ -104,20 +121,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\appsettings.json",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Api\\appsettings.json",
               "ToolTip": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\appsettings.json",
               "RelativeToolTip": "AuthenticationAndAuthorization.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-07T23:34:25.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SmtpEmailService.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\ExternalServices\\EmailService\\Implementations\\SmtpEmailService.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Infrastructure\\ExternalServices\\EmailService\\Implementations\\SmtpEmailService.cs",
@@ -130,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Infrastructure\\ExternalServices\\EmailService\\IEmailService.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Infrastructure\\ExternalServices\\EmailService\\IEmailService.cs",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RoleSeeder.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\Data\\Seed\\RoleSeeder.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Core\\Data\\Seed\\RoleSeeder.cs",
@@ -156,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RegisterModel.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\Variables\\Auth\\RegisterModel.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Application\\Variables\\Auth\\RegisterModel.cs",
@@ -169,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HandleRegister.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\Commands\\Auth\\HandleRegister.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Application\\Commands\\Auth\\HandleRegister.cs",
@@ -182,20 +199,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Api\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "AuthenticationAndAuthorization.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAABMAAABQMzMzMxM6wC8AAAAfAAAA",
+              "ViewState": "AQIAACkAAACAMjMzMzMnwEAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T22:06:58.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AuthenticationAndAuthorization.Application",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Application\\AuthenticationAndAuthorization.Application.csproj",
@@ -208,20 +225,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\Program.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Api\\Program.cs",
               "ToolTip": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\Program.cs",
               "RelativeToolTip": "AuthenticationAndAuthorization.Api\\Program.cs",
-              "ViewState": "AQIAABAAAACAMjMzMzMbwAwAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T21:50:06.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Application\\DependencyInjection.cs",
@@ -234,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ApiBaseController.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api\\Controllers\\ApiBaseController.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Api\\Controllers\\ApiBaseController.cs",
@@ -247,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Core\\Data\\AppDbContext.cs",
@@ -260,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AuthenticationAndAuthorization.Core",
               "DocumentMoniker": "C:\\Projects\\AuthenticationAndAuthorizationService\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization.Core\\AuthenticationAndAuthorization.Core.csproj",
