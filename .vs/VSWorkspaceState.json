@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AuthenticationAndAuthorization.Api"
   ],
-  "SelectedNode": "\\C:\\Projects\\AuthenticationAndAuthorizationService",
+  "SelectedNode": "\\AuthenticationAndAuthorization.Api\\AuthenticationAndAuthorization.Api.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -83,5 +83,21 @@ namespace AuthenticationAndAuthorization.Api.Controllers
             return Ok(new { Message = "This is a protected endpoint" });
         }
 
+        /// <summary>
+        /// Send Email Endpoint
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost("send-email")]
+        [Produces("application/json", Type = typeof(StandardResponse<string>))]
+        public async Task<IActionResult> SendEmail(SendEmailModel model)
+        {
+            var command = new HandleSendEmail.Command(model);
+            var result = await Mediator.Send(command);
+            if (result.Status)
+                return Ok(result);
+            return StatusCode(int.Parse(result.Code), result);
+        }
+
     }
 }
